@@ -1,0 +1,105 @@
+/* Main container */
+header {
+    background-color: rgb(114, 25, 25);
+    padding: 20px 0;
+    width: 100%;
+}
+
+h1 {
+    background-color: rgb(114, 25, 25);
+    color: rgb(244, 221, 192);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Pizza container */
+.pizza-container {
+    max-width: 1000px;
+    margin: 30px ;
+    padding: 20px;
+}
+
+/* Individual pizza item */
+.pizza-item {
+    background-color: antiquewhite;
+    
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 30px;
+}
+
+/* Pizza name - center */
+.pizza-item h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Content row - image and details */
+.pizza-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Image container */
+.pizza-image {
+    flex: 0 0 300px;  /* Fixed width 300px */
+}
+
+.pizza-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Details container */
+.pizza-details {
+    flex: 1;
+    padding: 20px;
+    background-color: transparent; 
+    border-radius: 10px;
+}
+
+.pizza-details p {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    align-self: flex-start;
+}
+
+.pizza-details .ingredients {
+    color: #555;
+    font-style: italic;
+}
+
+.pizza-details .price {
+    background-color: antiquewhite;
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 22px;
+}
+
+/* Button styling */
+.orderbutton {
+    background-color: #e67e22;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 150px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.orderbutton:hover {
+    background-color: #e67e22;
+}
+
